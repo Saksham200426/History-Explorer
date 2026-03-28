@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>History Explorer — Kings of the Ages</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="dark-mode">
+
+  <!-- ── Ambient Background ── -->
+  <div class="bg-layer">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+    <div class="grain-overlay"></div>
+  </div>
+
+  <!-- ── Header ── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-wrap">
+        <span class="logo-crown">♛</span>
+        <div class="logo-text">
+          <span class="logo-title">History Explorer</span>
+          <span class="logo-sub">Kings &amp; Rulers of the Ages</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+          <span class="theme-icon">☀</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main Layout ── -->
+  <main class="main-layout">
+
+    <!-- ── Left Panel: Controls ── -->
+    <aside class="control-panel" id="controlPanel">
+      <div class="panel-header">
+        <h2 class="panel-title">Explore History</h2>
+        <p class="panel-sub">Select a century, empire &amp; ruler</p>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-section">
+        <div class="search-wrap">
+          <span class="search-icon">⚲</span>
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Search a king's name…"
+            autocomplete="off"
+          />
+          <button class="search-clear" id="searchClear" title="Clear search">×</button>
+        </div>
+        <div class="search-results-dropdown" id="searchDropdown"></div>
+      </div>
+
+      <div class="divider"><span>or browse</span></div>
+
+      <!-- Filter by Type -->
+      <div class="filter-bar">
+        <span class="filter-label">Filter</span>
+        <div class="filter-chips" id="filterChips">
+          <button class="chip active" data-type="all">All</button>
+        </div>
+      </div>
+
+      <!-- Selectors -->
+      <div class="selector-stack">
+        <div class="selector-group">
+          <label class="selector-label" for="centurySelect">
+            <span class="label-icon">⌚</span> Century
+          </label>
+          <div class="select-wrap">
+            <select id="centurySelect" class="styled-select" disabled>
+              <option value="">Loading centuries…</option>
+            </select>
+            <span class="select-arrow">▾</span>
+          </div>
+        </div>
+
+        <div class="selector-group">
+          <label class="selector-label" for="countrySelect">
+            <span class="label-icon">⛩</span> Empire / Kingdom
+          </label>
+          <div class="select-wrap">
+            <select id="countrySelect" class="styled-select" disabled>
+              <option value="">— Select a century first —</option>
+            </select>
+            <span class="select-arrow">▾</span>
+          </div>
+        </div>
+
+        <div class="selector-group">
+          <label class="selector-label" for="kingSelect">
+            <span class="label-icon">♛</span> Ruler
+          </label>
+          <div class="select-wrap">
+            <select id="kingSelect" class="styled-select" disabled>
+              <option value="">— Select an empire first —</option>
+            </select>
+            <span class="select-arrow">▾</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Compare Button -->
+      <div class="compare-section" id="compareSection" style="display:none;">
+        <p class="compare-label">Compare with another ruler</p>
+        <div class="select-wrap">
+          <select id="compareSelect" class="styled-select">
+            <option value="">— Select to compare —</option>
+          </select>
+          <span class="select-arrow">▾</span>
+        </div>
+        <button class="btn-compare" id="btnCompare">⚔ Compare Rulers</button>
+      </div>
+    </aside>
+
+    <!-- ── Right Panel: Content ── -->
+    <section class="content-area" id="contentArea">
+
+      <!-- Welcome State -->
+      <div class="welcome-state" id="welcomeState">
+        <div class="welcome-emblem">♛</div>
+        <h1 class="welcome-title">Explore the Rulers of History</h1>
+        <p class="welcome-text">
+          From ancient Rome to the great Mughal court, from England's Lion-Heart to the<br />
+          Sun King of France — select a century and empire to begin your journey.
+        </p>
+        <div class="welcome-stats" id="welcomeStats">
+          <div class="stat-item">
+            <span class="stat-num" id="statCenturies">—</span>
+            <span class="stat-lbl">Centuries</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="statKingdoms">—</span>
+            <span class="stat-lbl">Kingdoms</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="statRulers">—</span>
+            <span class="stat-lbl">Rulers</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- King Cards Grid (shown when country selected) -->
+      <div class="kings-grid-view" id="kingsGridView" style="display:none;">
+        <div class="grid-header">
+          <h2 class="grid-title" id="gridTitle"></h2>
+          <span class="grid-count" id="gridCount"></span>
+        </div>
+        <div class="kings-grid" id="kingsGrid"></div>
+      </div>
+
+      <!-- King Detail View -->
+      <div class="king-detail" id="kingDetail" style="display:none;">
+        <button class="back-btn" id="backBtn">← Back to list</button>
+
+        <div class="king-hero">
+          <div class="king-image-wrap" id="kingImageWrap">
+            <img class="king-image" id="kingImage" src="" alt="" />
+            <div class="king-image-placeholder" id="kingImagePlaceholder">
+              <span>♛</span>
+            </div>
+          </div>
+          <div class="king-hero-info">
+            <div class="king-type-badge" id="kingTypeBadge"></div>
+            <h1 class="king-name" id="kingName"></h1>
+            <div class="king-meta">
+              <div class="king-meta-item">
+                <span class="meta-label">Empire</span>
+                <span class="meta-value" id="kingCountry"></span>
+              </div>
+              <div class="king-meta-item">
+                <span class="meta-label">Period</span>
+                <span class="meta-value" id="kingCentury"></span>
+              </div>
+              <div class="king-meta-item">
+                <span class="meta-label">Reign</span>
+                <span class="meta-value king-reign-val" id="kingReign"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Bar -->
+        <div class="timeline-section">
+          <h3 class="section-heading">Timeline</h3>
+          <div class="timeline-bar-wrap">
+            <div class="timeline-bar">
+              <div class="timeline-fill" id="timelineFill"></div>
+              <div class="timeline-label-left" id="timelineStart"></div>
+              <div class="timeline-label-right" id="timelineEnd"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Biography -->
+        <div class="bio-section">
+          <h3 class="section-heading">Biography</h3>
+          <p class="king-bio" id="kingBio"></p>
+        </div>
+
+        <!-- Achievements -->
+        <div class="achievements-section">
+          <h3 class="section-heading">Key Achievements</h3>
+          <ul class="achievements-list" id="achievementsList"></ul>
+        </div>
+      </div>
+
+      <!-- Compare View -->
+      <div class="compare-view" id="compareView" style="display:none;">
+        <button class="back-btn" id="compareBackBtn">← Back</button>
+        <h2 class="compare-title">⚔ Ruler Comparison</h2>
+        <div class="compare-grid" id="compareGrid"></div>
+      </div>
+
+      <!-- Search Results View -->
+      <div class="search-results-view" id="searchResultsView" style="display:none;">
+        <div class="grid-header">
+          <h2 class="grid-title">Search Results</h2>
+          <span class="grid-count" id="searchResultCount"></span>
+        </div>
+        <div class="kings-grid" id="searchResultsGrid"></div>
+      </div>
+
+      <!-- Loading Overlay -->
+      <div class="loading-overlay" id="loadingOverlay" style="display:none;">
+        <div class="loader-ring">
+          <div></div><div></div><div></div><div></div>
+        </div>
+        <p class="loader-text">Consulting the chronicles…</p>
+      </div>
+
+      <!-- Error State -->
+      <div class="error-state" id="errorState" style="display:none;">
+        <span class="error-icon">⚠</span>
+        <p class="error-msg" id="errorMsg"></p>
+        <button class="btn-retry" id="btnRetry">Try Again</button>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <p>History Explorer · Data curated from historical sources · Built with Flask &amp; Vanilla JS</p>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
