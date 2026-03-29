@@ -4,40 +4,63 @@
       {
         "name": "Augustus Caesar",
         "info": "The first Roman Emperor, born Gaius Octavius, he transformed Rome from a republic into an empire. Adopted son of Julius Caesar, he defeated Mark Antony and Cleopatra to become the undisputed ruler of Rome. His reign ushered in the Pax Romana, a period of relative peace and prosperity.",
-        "achievements": ["Established the Principate", "Expanded Roman territory", "Initiated Pax Romana", "Rebuilt Rome in marble", "Reformed the army and navy"],
-        "reign": "27 BC – 14 AD",
+        "achievements": [
+          "Established the Principate",
+          "Expanded Roman territory",
+          "Initiated Pax Romana",
+          "Rebuilt Rome in marble",
+          "Reformed the army and navy"
+        ],
+        "reign": "27 BC \u2013 14 AD",
         "type": "conqueror",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Statue-Augustus.jpg/800px-Statue-Augustus.jpg"
       },
       {
         "name": "Tiberius",
         "info": "Second Roman Emperor and stepson of Augustus. A skilled military commander, he extended the northern frontiers of the empire. His reign grew increasingly gloomy, marked by treason trials and his self-imposed exile to Capri.",
-        "achievements": ["Secured Rhine and Danube frontiers", "Maintained Augustus's financial reforms", "Built the Castra Praetoria"],
-        "reign": "14 AD – 37 AD",
+        "achievements": [
+          "Secured Rhine and Danube frontiers",
+          "Maintained Augustus's financial reforms",
+          "Built the Castra Praetoria"
+        ],
+        "reign": "14 AD \u2013 37 AD",
         "type": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tiberius_MAN_Napoli_Inv6061.jpg/800px-Tiberius_MAN_Napoli_Inv6061.jpg"
       },
       {
         "name": "Nero",
-        "info": "The last emperor of the Julio-Claudian dynasty, Nero is one of history's most infamous rulers. Initially showing promise, his reign descended into tyranny. He is famously — though possibly falsely — associated with playing music while Rome burned.",
-        "achievements": ["Promoted arts and culture", "Built the Domus Aurea", "Expanded Eastern borders"],
-        "reign": "54 AD – 68 AD",
+        "info": "The last emperor of the Julio-Claudian dynasty, Nero is one of history's most infamous rulers. Initially showing promise, his reign descended into tyranny. He is famously \u2014 though possibly falsely \u2014 associated with playing music while Rome burned.",
+        "achievements": [
+          "Promoted arts and culture",
+          "Built the Domus Aurea",
+          "Expanded Eastern borders"
+        ],
+        "reign": "54 AD \u2013 68 AD",
         "type": "controversial",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Nero_pushkin.jpg/800px-Nero_pushkin.jpg"
       },
       {
         "name": "Claudius",
         "info": "Often underestimated due to his physical disabilities, Claudius proved a capable administrator. He successfully invaded Britain, adding it to the empire, and expanded Roman citizenship.",
-        "achievements": ["Conquered Britain (43 AD)", "Expanded the empire", "Built harbors and roads", "Reformed bureaucracy"],
-        "reign": "41 AD – 54 AD",
+        "achievements": [
+          "Conquered Britain (43 AD)",
+          "Expanded the empire",
+          "Built harbors and roads",
+          "Reformed bureaucracy"
+        ],
+        "reign": "41 AD \u2013 54 AD",
         "type": "peaceful",
         "image": ""
       },
       {
         "name": "Caligula",
-        "info": "The third Roman Emperor, Gaius Caesar Germanicus — nicknamed Caligula ('little boot') — began with popular reforms but became one of Rome's most erratic and cruel rulers. His short reign was marked by extravagance and terror.",
-        "achievements": ["Abolished treason trials early in reign", "Built two aqueducts", "Extended the empire's borders"],
-        "reign": "37 AD – 41 AD",
+        "info": "The third Roman Emperor, Gaius Caesar Germanicus \u2014 nicknamed Caligula ('little boot') \u2014 began with popular reforms but became one of Rome's most erratic and cruel rulers. His short reign was marked by extravagance and terror.",
+        "achievements": [
+          "Abolished treason trials early in reign",
+          "Built two aqueducts",
+          "Extended the empire's borders"
+        ],
+        "reign": "37 AD \u2013 41 AD",
         "type": "controversial",
         "image": ""
       }
@@ -46,16 +69,24 @@
       {
         "name": "Mithridates II",
         "info": "Known as 'Mithridates the Great', he was the most powerful Parthian king who transformed his realm into a major empire. He brought the Silk Road trade under Parthian control and established diplomatic contact with Rome and China.",
-        "achievements": ["Expanded Parthian Empire greatly", "Established Silk Road trade control", "Diplomatic contact with Rome and Han China"],
-        "reign": "124 BC – 91 BC",
+        "achievements": [
+          "Expanded Parthian Empire greatly",
+          "Established Silk Road trade control",
+          "Diplomatic contact with Rome and Han China"
+        ],
+        "reign": "124 BC \u2013 91 BC",
         "type": "conqueror",
         "image": ""
       },
       {
         "name": "Phraates IV",
         "info": "Phraates IV defeated Mark Antony's invasion and negotiated the return of Roman standards captured at Carrhae, a major diplomatic triumph. He fostered arts and was known for his cunning diplomatic maneuvering between Rome and the East.",
-        "achievements": ["Defeated Mark Antony's invasion", "Recovered Roman standards captured at Carrhae", "Stabilized Eastern Parthian borders"],
-        "reign": "37 BC – 2 BC",
+        "achievements": [
+          "Defeated Mark Antony's invasion",
+          "Recovered Roman standards captured at Carrhae",
+          "Stabilized Eastern Parthian borders"
+        ],
+        "reign": "37 BC \u2013 2 BC",
         "type": "military",
         "image": ""
       }
@@ -64,18 +95,16 @@
       {
         "name": "Ashoka the Great",
         "info": "One of the greatest monarchs in world history, Ashoka ruled the Maurya Empire at its peak. After witnessing the carnage of the Kalinga War, he renounced violence and embraced Buddhism, spreading its teachings across Asia.",
-        "achievements": ["Spread Buddhism across Asia", "Built thousands of stupas", "Issued rock and pillar edicts", "Created a welfare state", "Abolished torture"],
-        "reign": "268 BC – 232 BC",
+        "achievements": [
+          "Spread Buddhism across Asia",
+          "Built thousands of stupas",
+          "Issued rock and pillar edicts",
+          "Created a welfare state",
+          "Abolished torture"
+        ],
+        "reign": "268 BC \u2013 232 BC",
         "type": "peaceful",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ashoka_Maurya_-_sculpture_-_Patna_Museum.jpg/800px-Ashoka_Maurya_-_sculpture_-_Patna_Museum.jpg"
-      },
-      {
-        "name": "Chandragupta Maurya",
-        "info": "The founder of the Maurya Empire, Chandragupta overthrew the Nanda dynasty with the help of his advisor Chanakya. He unified most of the Indian subcontinent and is considered the first unifier of India.",
-        "achievements": ["Founded the Maurya Empire", "Unified most of India", "Defeated Seleucus Nicator", "Created an efficient administrative system"],
-        "reign": "321 BC – 297 BC",
-        "type": "conqueror",
-        "image": ""
       }
     ]
   },
@@ -84,16 +113,24 @@
       {
         "name": "Theodosius I",
         "info": "The last emperor to rule both halves of the Roman Empire, Theodosius made Christianity the official state religion of Rome. He defeated multiple usurpers and barbarian invasions, but his death split the empire permanently between his sons.",
-        "achievements": ["Made Christianity the state religion", "Last ruler of a unified Rome", "Defeated Eugenius usurper", "Issued the Edict of Thessalonica"],
-        "reign": "379 AD – 395 AD",
+        "achievements": [
+          "Made Christianity the state religion",
+          "Last ruler of a unified Rome",
+          "Defeated Eugenius usurper",
+          "Issued the Edict of Thessalonica"
+        ],
+        "reign": "379 AD \u2013 395 AD",
         "type": "religious",
         "image": ""
       },
       {
         "name": "Honorius",
-        "info": "Western Roman Emperor during one of Rome's most turbulent periods. Under his reign, Rome was sacked by the Visigoths under Alaric in 410 AD — the first time the city had been sacked in 800 years. He was considered a weak and ineffective ruler.",
-        "achievements": ["Maintained some control of the western provinces", "Transferred imperial capital to Ravenna"],
-        "reign": "393 AD – 423 AD",
+        "info": "Western Roman Emperor during one of Rome's most turbulent periods. Under his reign, Rome was sacked by the Visigoths under Alaric in 410 AD \u2014 the first time the city had been sacked in 800 years. He was considered a weak and ineffective ruler.",
+        "achievements": [
+          "Maintained some control of the western provinces",
+          "Transferred imperial capital to Ravenna"
+        ],
+        "reign": "393 AD \u2013 423 AD",
         "type": "controversial",
         "image": ""
       }
@@ -102,16 +139,26 @@
       {
         "name": "Chandragupta II (Vikramaditya)",
         "info": "Chandragupta II, known as Vikramaditya, presided over the golden age of the Gupta Empire. His reign saw remarkable advances in arts, literature, science and philosophy. The renowned poet Kalidasa flourished in his court.",
-        "achievements": ["Expanded Gupta Empire to its greatest extent", "Patronized arts and literature", "Kalidasa flourished under his reign", "Defeated the Shakas", "Promoted trade with Rome"],
-        "reign": "375 AD – 415 AD",
+        "achievements": [
+          "Expanded Gupta Empire to its greatest extent",
+          "Patronized arts and literature",
+          "Kalidasa flourished under his reign",
+          "Defeated the Shakas",
+          "Promoted trade with Rome"
+        ],
+        "reign": "375 AD \u2013 415 AD",
         "type": "peaceful",
         "image": ""
       },
       {
         "name": "Kumaragupta I",
         "info": "Son of Chandragupta II, Kumaragupta maintained the vast empire his father built. He founded Nalanda University, which became the greatest center of learning in ancient Asia. His long and stable reign is considered part of the Indian golden age.",
-        "achievements": ["Founded Nalanda University", "Maintained the vast Gupta Empire", "Promoted Buddhism and Hinduism equally"],
-        "reign": "415 AD – 455 AD",
+        "achievements": [
+          "Founded Nalanda University",
+          "Maintained the vast Gupta Empire",
+          "Promoted Buddhism and Hinduism equally"
+        ],
+        "reign": "415 AD \u2013 455 AD",
         "type": "peaceful",
         "image": ""
       }
@@ -120,8 +167,13 @@
       {
         "name": "Attila the Hun",
         "info": "Called the 'Scourge of God', Attila was the ruler of the Hunnic Empire and one of the most feared enemies of the Western and Eastern Roman Empires. He invaded Gaul and Italy, devastating much of Europe before his mysterious death in 453 AD.",
-        "achievements": ["United the Hun tribes", "Expanded empire from Rhine to Ural", "Invaded Gaul and Italy", "Forced Rome to pay massive tributes"],
-        "reign": "434 AD – 453 AD",
+        "achievements": [
+          "United the Hun tribes",
+          "Expanded empire from Rhine to Ural",
+          "Invaded Gaul and Italy",
+          "Forced Rome to pay massive tributes"
+        ],
+        "reign": "434 AD \u2013 453 AD",
         "type": "conqueror",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Attilaedg3.jpg/800px-Attilaedg3.jpg"
       }
@@ -132,16 +184,27 @@
       {
         "name": "Alfred the Great",
         "info": "The only English monarch known as 'the Great', Alfred of Wessex defended his kingdom against Viking invasions, reformed the legal system, promoted education, and established a strong navy. He is considered the father of the English nation.",
-        "achievements": ["Defeated the Great Heathen Army", "Created the Danelaw treaty", "Established England's first navy", "Promoted literacy and education", "Codified English law"],
-        "reign": "871 AD – 899 AD",
+        "achievements": [
+          "Defeated the Great Heathen Army",
+          "Created the Danelaw treaty",
+          "Established England's first navy",
+          "Promoted literacy and education",
+          "Codified English law"
+        ],
+        "reign": "871 AD \u2013 899 AD",
         "type": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/King_Alfred_the_Great_statue%2C_Wantage.jpg/800px-King_Alfred_the_Great_statue%2C_Wantage.jpg"
       },
       {
-        "name": "Æthelstan",
-        "info": "Often considered the first true King of England, Æthelstan unified the Anglo-Saxon kingdoms and became the first king to claim the title 'King of All Britain'. He defeated a coalition at the Battle of Brunanburh in 937.",
-        "achievements": ["First King of All England", "Won Battle of Brunanburh", "Established uniform coinage", "Built strong diplomatic ties with Europe"],
-        "reign": "924 AD – 939 AD",
+        "name": "\u00c6thelstan",
+        "info": "Often considered the first true King of England, \u00c6thelstan unified the Anglo-Saxon kingdoms and became the first king to claim the title 'King of All Britain'. He defeated a coalition at the Battle of Brunanburh in 937.",
+        "achievements": [
+          "First King of All England",
+          "Won Battle of Brunanburh",
+          "Established uniform coinage",
+          "Built strong diplomatic ties with Europe"
+        ],
+        "reign": "924 AD \u2013 939 AD",
         "type": "conqueror",
         "image": ""
       }
@@ -150,8 +213,13 @@
       {
         "name": "Otto I (The Great)",
         "info": "Otto the Great was the first Holy Roman Emperor, founding an empire that would last until 1806. He defeated the Magyars at Lechfeld in 955, saving Christian Europe from further eastern invasions, and revived Charlemagne's imperial ideal.",
-        "achievements": ["Founded the Holy Roman Empire", "Defeated Magyars at Battle of Lechfeld", "Controlled the Papacy", "Expanded Christianity eastward"],
-        "reign": "936 AD – 973 AD",
+        "achievements": [
+          "Founded the Holy Roman Empire",
+          "Defeated Magyars at Battle of Lechfeld",
+          "Controlled the Papacy",
+          "Expanded Christianity eastward"
+        ],
+        "reign": "936 AD \u2013 973 AD",
         "type": "conqueror",
         "image": ""
       }
@@ -160,16 +228,27 @@
       {
         "name": "Rajaraja Chola I",
         "info": "One of the greatest rulers of South India, Rajaraja Chola I expanded the Chola Empire across the Indian subcontinent and into Southeast Asia. He built the magnificent Brihadeeswarar Temple and established a powerful naval force.",
-        "achievements": ["Built Brihadeeswarar Temple", "Conquered Sri Lanka", "Established powerful Chola navy", "Expanded into Southeast Asia", "Reformed land revenue system"],
-        "reign": "985 AD – 1014 AD",
+        "achievements": [
+          "Built Brihadeeswarar Temple",
+          "Conquered Sri Lanka",
+          "Established powerful Chola navy",
+          "Expanded into Southeast Asia",
+          "Reformed land revenue system"
+        ],
+        "reign": "985 AD \u2013 1014 AD",
         "type": "conqueror",
         "image": ""
       },
       {
         "name": "Rajendra Chola I",
         "info": "Son of Rajaraja Chola I, Rajendra surpassed even his father's conquests. He led a naval expedition all the way to Southeast Asia and captured parts of Malaysia, Indonesia, and Thailand. He also launched a legendary march to the banks of the Ganges.",
-        "achievements": ["Naval victory over Srivijaya Empire", "Conquered parts of Southeast Asia", "The Gangaikonda campaign", "Built the new capital Gangaikondacholapuram"],
-        "reign": "1014 AD – 1044 AD",
+        "achievements": [
+          "Naval victory over Srivijaya Empire",
+          "Conquered parts of Southeast Asia",
+          "The Gangaikonda campaign",
+          "Built the new capital Gangaikondacholapuram"
+        ],
+        "reign": "1014 AD \u2013 1044 AD",
         "type": "conqueror",
         "image": ""
       }
@@ -178,8 +257,14 @@
       {
         "name": "Basil II (Bulgar Slayer)",
         "info": "One of Byzantium's greatest military emperors, Basil II earned the epithet 'Bulgar-Slayer' after defeating and blinding 15,000 Bulgarian prisoners. He brought the Byzantine Empire to its greatest territorial extent and ruled for nearly 50 years.",
-        "achievements": ["Conquered Bulgaria", "Extended Byzantine territory", "Reconquered much of the Balkans", "Crushed internal revolts", "Brought Kievan Rus into Christianity"],
-        "reign": "976 AD – 1025 AD",
+        "achievements": [
+          "Conquered Bulgaria",
+          "Extended Byzantine territory",
+          "Reconquered much of the Balkans",
+          "Crushed internal revolts",
+          "Brought Kievan Rus into Christianity"
+        ],
+        "reign": "976 AD \u2013 1025 AD",
         "type": "military",
         "image": ""
       }
@@ -190,16 +275,26 @@
       {
         "name": "Richard I (The Lionheart)",
         "info": "Richard I of England is one of the most celebrated warrior-kings in European history. Despite spending little time in England, he became a legend for his role in the Third Crusade, his battlefield prowess, and his chivalric code. He was captured and ransomed on his way home from the Holy Land.",
-        "achievements": ["Led the Third Crusade", "Won the Battle of Arsuf", "Negotiated treaty with Saladin", "Built Château Gaillard fortress"],
-        "reign": "1189 AD – 1199 AD",
+        "achievements": [
+          "Led the Third Crusade",
+          "Won the Battle of Arsuf",
+          "Negotiated treaty with Saladin",
+          "Built Ch\u00e2teau Gaillard fortress"
+        ],
+        "reign": "1189 AD \u2013 1199 AD",
         "type": "conqueror",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/King_Richard_I_of_England.jpg/800px-King_Richard_I_of_England.jpg"
       },
       {
         "name": "Henry II",
         "info": "One of England's most capable medieval kings, Henry II reformed the legal system and created the foundation of English common law. However, his reign was marred by conflict with Thomas Becket, Archbishop of Canterbury, who was murdered in his own cathedral.",
-        "achievements": ["Founded English common law", "Expanded the Angevin Empire", "Reformed the church-state relationship", "Conquered Ireland"],
-        "reign": "1154 AD – 1189 AD",
+        "achievements": [
+          "Founded English common law",
+          "Expanded the Angevin Empire",
+          "Reformed the church-state relationship",
+          "Conquered Ireland"
+        ],
+        "reign": "1154 AD \u2013 1189 AD",
         "type": "peaceful",
         "image": ""
       }
@@ -208,8 +303,14 @@
       {
         "name": "Saladin",
         "info": "Salah ad-Din Yusuf ibn Ayyub, known as Saladin, was the first Sultan of Egypt and Syria and the founder of the Ayyubid dynasty. He recaptured Jerusalem from the Crusaders in 1187 and is renowned for his chivalry even by his Christian enemies.",
-        "achievements": ["Recaptured Jerusalem (1187)", "United Egypt and Syria", "Founded the Ayyubid dynasty", "Defeated Crusaders at Hattin", "Known for chivalry and mercy to defeated enemies"],
-        "reign": "1174 AD – 1193 AD",
+        "achievements": [
+          "Recaptured Jerusalem (1187)",
+          "United Egypt and Syria",
+          "Founded the Ayyubid dynasty",
+          "Defeated Crusaders at Hattin",
+          "Known for chivalry and mercy to defeated enemies"
+        ],
+        "reign": "1174 AD \u2013 1193 AD",
         "type": "conqueror",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Saladin_and_Guy.jpg/800px-Saladin_and_Guy.jpg"
       }
@@ -218,8 +319,12 @@
       {
         "name": "Emperor Huizong",
         "info": "Emperor Huizong of Song was perhaps the most artistically talented ruler in Chinese history, an accomplished painter and calligrapher. However, his neglect of military matters led to the Jin dynasty's invasion, and he was captured and died in captivity.",
-        "achievements": ["Outstanding painter and calligrapher", "Established imperial academy of painting", "Commissioned the Xuanhe catalogue of art"],
-        "reign": "1100 AD – 1125 AD",
+        "achievements": [
+          "Outstanding painter and calligrapher",
+          "Established imperial academy of painting",
+          "Commissioned the Xuanhe catalogue of art"
+        ],
+        "reign": "1100 AD \u2013 1125 AD",
         "type": "controversial",
         "image": ""
       }
@@ -228,8 +333,12 @@
       {
         "name": "Qutb ud-Din Aibak",
         "info": "The founder of the Delhi Sultanate and the Mamluk dynasty in India, Qutb ud-Din Aibak was a Turkish slave-turned-general who established Muslim rule over northern India after his master Muhammad of Ghor was assassinated.",
-        "achievements": ["Founded Delhi Sultanate", "Built Qutb Minar (started)", "Spread Islamic architecture in India"],
-        "reign": "1206 AD – 1210 AD",
+        "achievements": [
+          "Founded Delhi Sultanate",
+          "Built Qutb Minar (started)",
+          "Spread Islamic architecture in India"
+        ],
+        "reign": "1206 AD \u2013 1210 AD",
         "type": "military",
         "image": ""
       }
@@ -240,24 +349,41 @@
       {
         "name": "Akbar the Great",
         "info": "The third Mughal Emperor and arguably the greatest, Akbar expanded the empire across most of the Indian subcontinent. He was a progressive ruler who promoted religious tolerance, abolished the jizya tax, and created a new syncretic religion called Din-i-Ilahi.",
-        "achievements": ["Expanded Mughal Empire across India", "Promoted religious tolerance", "Abolished jizya tax", "Created Din-i-Ilahi", "Built Fatehpur Sikri", "Established a strong central administration"],
-        "reign": "1556 AD – 1605 AD",
+        "achievements": [
+          "Expanded Mughal Empire across India",
+          "Promoted religious tolerance",
+          "Abolished jizya tax",
+          "Created Din-i-Ilahi",
+          "Built Fatehpur Sikri",
+          "Established a strong central administration"
+        ],
+        "reign": "1556 AD \u2013 1605 AD",
         "type": "peaceful",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Akbar_with_Lion_and_Calf.jpg/800px-Akbar_with_Lion_and_Calf.jpg"
       },
       {
         "name": "Babur",
         "info": "The founder of the Mughal Empire, Zahir ud-Din Muhammad Babur was a descendant of both Timur and Genghis Khan. He won the First Battle of Panipat in 1526, defeating Ibrahim Lodi and establishing Mughal rule in India.",
-        "achievements": ["Founded the Mughal Empire", "Won Battle of Panipat (1526)", "Won Battle of Khanwa", "Wrote the autobiographical Baburnama", "Introduced gunpowder to Indian warfare"],
-        "reign": "1526 AD – 1530 AD",
+        "achievements": [
+          "Founded the Mughal Empire",
+          "Won Battle of Panipat (1526)",
+          "Won Battle of Khanwa",
+          "Wrote the autobiographical Baburnama",
+          "Introduced gunpowder to Indian warfare"
+        ],
+        "reign": "1526 AD \u2013 1530 AD",
         "type": "conqueror",
         "image": ""
       },
       {
         "name": "Humayun",
-        "info": "The second Mughal Emperor, Humayun had a turbulent reign — losing his empire to Sher Shah Suri and spending years in exile in Persia before reconquering India. He is noted for bringing Persian cultural influences into the Mughal court.",
-        "achievements": ["Reconquered the Mughal Empire", "Brought Persian culture to Mughal court", "Built Din Panah city in Delhi"],
-        "reign": "1530–1540, 1555–1556 AD",
+        "info": "The second Mughal Emperor, Humayun had a turbulent reign \u2014 losing his empire to Sher Shah Suri and spending years in exile in Persia before reconquering India. He is noted for bringing Persian cultural influences into the Mughal court.",
+        "achievements": [
+          "Reconquered the Mughal Empire",
+          "Brought Persian culture to Mughal court",
+          "Built Din Panah city in Delhi"
+        ],
+        "reign": "1530\u20131540, 1555\u20131556 AD",
         "type": "military",
         "image": ""
       }
@@ -266,36 +392,32 @@
       {
         "name": "Suleiman the Magnificent",
         "info": "The longest-reigning Sultan of the Ottoman Empire, Suleiman brought the empire to its peak. Known in the West as 'the Magnificent' and in the East as 'the Lawgiver' (Kanuni), he expanded the empire into Europe, Asia, and Africa.",
-        "achievements": ["Conquered Belgrade and Rhodes", "Won Battle of Mohács, crushing Hungary", "Expanded Ottoman law and justice", "Built the Suleymaniye Mosque", "Patron of arts and architecture"],
-        "reign": "1520 AD – 1566 AD",
+        "achievements": [
+          "Conquered Belgrade and Rhodes",
+          "Won Battle of Moh\u00e1cs, crushing Hungary",
+          "Expanded Ottoman law and justice",
+          "Built the Suleymaniye Mosque",
+          "Patron of arts and architecture"
+        ],
+        "reign": "1520 AD \u2013 1566 AD",
         "type": "conqueror",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Tizian_081.jpg/800px-Tizian_081.jpg"
-      },
-      {
-        "name": "Selim I (The Grim)",
-        "info": "Selim I tripled the size of the Ottoman Empire in just eight years. He conquered the Mamluk Sultanate, absorbing Egypt, Syria, and the Hejaz (including Mecca and Medina), making him Caliph of Islam — the first Ottoman Sultan to hold that title.",
-        "achievements": ["Tripled the Ottoman Empire's size", "Conquered Mamluk Sultanate", "Became Caliph of Islam", "Won Battle of Chaldiran against Safavids"],
-        "reign": "1512 AD – 1520 AD",
-        "type": "conqueror",
-        "image": ""
       }
     ],
     "England": [
       {
         "name": "Henry VIII",
         "info": "One of the most famous monarchs in English history, Henry VIII broke with the Catholic Church to establish the Church of England, partly to obtain a divorce from Catherine of Aragon. He had six wives and executed two of them. A complex figure: a Renaissance man, poet, and composer who became tyrannical in his later years.",
-        "achievements": ["Founded the Church of England", "Dissolved the monasteries", "Strengthened royal authority", "Built a powerful navy", "Patron of arts in early reign"],
-        "reign": "1509 AD – 1547 AD",
+        "achievements": [
+          "Founded the Church of England",
+          "Dissolved the monasteries",
+          "Strengthened royal authority",
+          "Built a powerful navy",
+          "Patron of arts in early reign"
+        ],
+        "reign": "1509 AD \u2013 1547 AD",
         "type": "controversial",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Henry_VIII_Holbein_portrait.jpg/800px-Henry_VIII_Holbein_portrait.jpg"
-      },
-      {
-        "name": "Elizabeth I",
-        "info": "The Virgin Queen, Elizabeth I presided over the Elizabethan Era, a golden age of English history. She saw off the Spanish Armada, oversaw the flourishing of English arts (Shakespeare), and established England as a major power. Never marrying, she ruled for 45 years.",
-        "achievements": ["Defeated the Spanish Armada (1588)", "Elizabethan Golden Age", "Patronized Shakespeare and the arts", "Established England's Protestant identity", "Expanded English exploration"],
-        "reign": "1558 AD – 1603 AD",
-        "type": "peaceful",
-        "image": ""
       }
     ]
   },
@@ -304,24 +426,40 @@
       {
         "name": "Shah Jahan",
         "info": "The fifth Mughal Emperor, Shah Jahan is best remembered as the builder of the Taj Mahal, erected in memory of his wife Mumtaz Mahal. His reign represented the peak of Mughal architecture. He was later imprisoned by his own son Aurangzeb.",
-        "achievements": ["Built the Taj Mahal", "Built the Red Fort", "Built the Jama Masjid", "Expanded Mughal architecture to its zenith", "Ruled during peak Mughal prosperity"],
-        "reign": "1628 AD – 1658 AD",
+        "achievements": [
+          "Built the Taj Mahal",
+          "Built the Red Fort",
+          "Built the Jama Masjid",
+          "Expanded Mughal architecture to its zenith",
+          "Ruled during peak Mughal prosperity"
+        ],
+        "reign": "1628 AD \u2013 1658 AD",
         "type": "peaceful",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Shah_Jahan_on_the_Globe.jpg/800px-Shah_Jahan_on_the_Globe.jpg"
       },
       {
         "name": "Aurangzeb",
         "info": "The last of the great Mughal Emperors, Aurangzeb extended the empire to its maximum territorial extent. However, his strict Islamic orthodoxy, religious persecution, and endless military campaigns drained the empire and sowed the seeds of its decline.",
-        "achievements": ["Extended Mughal Empire to maximum size", "Compiled Fatawa-e-Alamgiri (Islamic law)", "Long military campaigns in Deccan"],
-        "reign": "1658 AD – 1707 AD",
+        "achievements": [
+          "Extended Mughal Empire to maximum size",
+          "Compiled Fatawa-e-Alamgiri (Islamic law)",
+          "Long military campaigns in Deccan"
+        ],
+        "reign": "1658 AD \u2013 1707 AD",
         "type": "controversial",
         "image": ""
       },
       {
         "name": "Shivaji Maharaj",
         "info": "The founder of the Maratha Empire and one of the greatest warriors in Indian history, Shivaji challenged Mughal dominance and carved out a kingdom. He is celebrated for his guerrilla warfare tactics, naval strategy, just administration, and religious tolerance.",
-        "achievements": ["Founded the Maratha Empire", "Introduced guerrilla warfare (Ganimi Kava)", "Built a powerful navy", "Fort construction strategy", "Progressive administration with religious tolerance"],
-        "reign": "1674 AD – 1680 AD",
+        "achievements": [
+          "Founded the Maratha Empire",
+          "Introduced guerrilla warfare (Ganimi Kava)",
+          "Built a powerful navy",
+          "Fort construction strategy",
+          "Progressive administration with religious tolerance"
+        ],
+        "reign": "1674 AD \u2013 1680 AD",
         "type": "military",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shivaji_BM_1.jpg/800px-Shivaji_BM_1.jpg"
       }
@@ -329,9 +467,15 @@
     "France": [
       {
         "name": "Louis XIV (Sun King)",
-        "info": "The longest-reigning major monarch in European history, Louis XIV embodied absolute monarchy. The Sun King transformed France into the dominant European power and built the Palace of Versailles. His famous declaration 'L'état, c'est moi' (I am the state) captured his absolutist philosophy.",
-        "achievements": ["Built the Palace of Versailles", "Centralized French monarchy", "Dominated European politics for decades", "Patron of arts, literature, and science", "Reformed French military and economy"],
-        "reign": "1643 AD – 1715 AD",
+        "info": "The longest-reigning major monarch in European history, Louis XIV embodied absolute monarchy. The Sun King transformed France into the dominant European power and built the Palace of Versailles. His famous declaration 'L'\u00e9tat, c'est moi' (I am the state) captured his absolutist philosophy.",
+        "achievements": [
+          "Built the Palace of Versailles",
+          "Centralized French monarchy",
+          "Dominated European politics for decades",
+          "Patron of arts, literature, and science",
+          "Reformed French military and economy"
+        ],
+        "reign": "1643 AD \u2013 1715 AD",
         "type": "peaceful",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louis_XIV_of_France.jpg/800px-Louis_XIV_of_France.jpg"
       }
@@ -342,16 +486,26 @@
       {
         "name": "Peshwa Bajirao I",
         "info": "Considered one of the greatest cavalry commanders in history, Bajirao I was never defeated in battle across 41 engagements. He expanded the Maratha Empire from the Deccan to the Himalayas and made Marathas the dominant power in India.",
-        "achievements": ["Never lost a battle in 41 engagements", "Expanded Marathas to Delhi and beyond", "Defeated Nizam of Hyderabad", "Established Maratha supremacy in India"],
-        "reign": "1720 AD – 1740 AD",
+        "achievements": [
+          "Never lost a battle in 41 engagements",
+          "Expanded Marathas to Delhi and beyond",
+          "Defeated Nizam of Hyderabad",
+          "Established Maratha supremacy in India"
+        ],
+        "reign": "1720 AD \u2013 1740 AD",
         "type": "military",
         "image": ""
       },
       {
         "name": "Peshwa Madhavrao I",
         "info": "The greatest of the Peshwas, Madhavrao I revived the Maratha Empire after the devastating defeat at Panipat (1761). He reconquered lost territories, reformed the administration, and brought the empire back to prominence in just a decade before his untimely death at 27.",
-        "achievements": ["Revived Maratha Empire after Panipat disaster", "Conquered Hyder Ali", "Reformed administration and finances", "Brought Marathas back as dominant power"],
-        "reign": "1761 AD – 1772 AD",
+        "achievements": [
+          "Revived Maratha Empire after Panipat disaster",
+          "Conquered Hyder Ali",
+          "Reformed administration and finances",
+          "Brought Marathas back as dominant power"
+        ],
+        "reign": "1761 AD \u2013 1772 AD",
         "type": "military",
         "image": ""
       }
@@ -360,8 +514,14 @@
       {
         "name": "Frederick the Great",
         "info": "Frederick II of Prussia was the Enlightenment's philosopher-king. A skilled military commander and patron of arts, he transformed Prussia into a major European power, expanded its territory, and wrote philosophical treatises and composed music.",
-        "achievements": ["Won the War of Austrian Succession", "Won the Seven Years' War", "Doubled the size of Prussia", "Enlightened economic and social reforms", "Patron of arts and philosophy"],
-        "reign": "1740 AD – 1786 AD",
+        "achievements": [
+          "Won the War of Austrian Succession",
+          "Won the Seven Years' War",
+          "Doubled the size of Prussia",
+          "Enlightened economic and social reforms",
+          "Patron of arts and philosophy"
+        ],
+        "reign": "1740 AD \u2013 1786 AD",
         "type": "conqueror",
         "image": ""
       }
@@ -370,16 +530,27 @@
       {
         "name": "Hyder Ali",
         "info": "A self-made ruler who rose from a common soldier to become the de facto ruler of Mysore, Hyder Ali was one of the most formidable opponents the British East India Company faced. He modernized his army on European lines and waged two wars against the British.",
-        "achievements": ["Rose from soldier to king", "Modernized Mysore's military", "Defeated British in First Anglo-Mysore War", "Expanded Mysore kingdom significantly"],
-        "reign": "1761 AD – 1782 AD",
+        "achievements": [
+          "Rose from soldier to king",
+          "Modernized Mysore's military",
+          "Defeated British in First Anglo-Mysore War",
+          "Expanded Mysore kingdom significantly"
+        ],
+        "reign": "1761 AD \u2013 1782 AD",
         "type": "military",
         "image": ""
       },
       {
         "name": "Tipu Sultan",
         "info": "The Tiger of Mysore, Tipu Sultan was Hyder Ali's son and one of the most innovative rulers in Indian history. He introduced rocket artillery, developed a powerful navy, and valiantly resisted British expansion until his death at Srirangapatna in 1799.",
-        "achievements": ["Developed rocket artillery (early military rockets)", "Expanded trade with France and Ottoman Empire", "Introduced new calendar and coinage", "Fought four Anglo-Mysore Wars", "Died defending Srirangapatna fortress"],
-        "reign": "1782 AD – 1799 AD",
+        "achievements": [
+          "Developed rocket artillery (early military rockets)",
+          "Expanded trade with France and Ottoman Empire",
+          "Introduced new calendar and coinage",
+          "Fought four Anglo-Mysore Wars",
+          "Died defending Srirangapatna fortress"
+        ],
+        "reign": "1782 AD \u2013 1799 AD",
         "type": "military",
         "image": ""
       }

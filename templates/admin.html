@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            background: gold;
+            border: none;
+            cursor: pointer;
+        }
+        a {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>👑 Admin Panel</h1>
+
+    <h2>Add New King</h2>
+
+    <form method="POST" action="/add_king">
+        <input type="text" name="century" placeholder="Century (e.g. 17th)" required><br>
+        <input type="text" name="country" placeholder="Empire (e.g. Mughal Empire)" required><br>
+        <input type="text" name="name" placeholder="King Name" required><br>
+        <input type="text" name="reign" placeholder="Reign (e.g. 1658–1707)" required><br>
+        <input type="text" name="type" placeholder="Type (optional)"><br>
+
+        <textarea name="bio" placeholder="Biography"></textarea><br>
+
+        <button type="submit">Add King</button>
+    </form>
+
+  <!-- 🔥 YAHAN ADD KAR -->
+
+<h2>Delete King</h2>
+<form method="POST" action="/delete_king">
+    <input type="text" name="century" placeholder="Century"><br>
+    <input type="text" name="country" placeholder="Country"><br>
+    <input type="text" name="name" placeholder="King Name"><br>
+    <button type="submit">Delete</button>
+</form>
+
+<h2>Edit King</h2>
+<form method="POST" action="/edit_king">
+    <input type="text" name="century" placeholder="Century"><br>
+    <input type="text" name="country" placeholder="Country"><br>
+    <input type="number" name="index" placeholder="Index"><br>
+    <input type="text" name="name" placeholder="New Name"><br>
+    <input type="text" name="reign" placeholder="New Reign"><br>
+    <textarea name="bio" placeholder="New Bio"></textarea><br>
+    <button type="submit">Update</button>
+</form>  
+
+    <br><br>
+    <a href="/logout">Logout</a>
+
+</body>
+</html>
